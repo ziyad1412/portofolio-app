@@ -1,4 +1,5 @@
-import { Link } from "lucide-react";
+"use client";
+import Link from "next/link";
 import Image from "next/image";
 
 const Logo = () => {

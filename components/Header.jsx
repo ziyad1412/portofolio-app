@@ -24,7 +24,9 @@ const Header = () => {
         header
           ? "py-4 bg-white shadow-lg dark:bg-accent"
           : "py-6 dark:bg-transparent"
-      } sticky top-0 z-30 transition-all ${pathname === "/" && "bg-[#fef9f5]"}`}
+      } xl:px-12 sticky top-0 z-30 transition-all ${
+        pathname === "/" && "bg-[#fef9f5]"
+      }`}
     >
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
@@ -33,7 +35,7 @@ const Header = () => {
             <Nav
               containerStyles="hidden xl:flex gap-x-8 items-center"
               linkStyles="relative hover:text-primary transition-all"
-              underlineStyles="absolute left-0 top-full w-full h-[2px] bg-primary"
+              underlineStyles="absolute left-0 top-full h-[2px] w-full  bg-primary"
             />
             <ThemeToggler />
             <div className="xl:hidden">
