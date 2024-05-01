@@ -16,16 +16,8 @@ const infoData = [
     text: "Abdurrahman Ziyad",
   },
   {
-    icon: <MailIcon size={20} />,
-    text: "abdurrahman.ziyad17@gmail.com",
-  },
-  {
     icon: <PhoneCall size={20} />,
     text: "+6285894374578",
-  },
-  {
-    icon: <Calendar size={20} />,
-    text: "Born on 17 Apr, 2001",
   },
   {
     icon: <GraduationCap size={20} />,
@@ -54,11 +46,6 @@ const qualificationData = [
         company: "Yayasan IQF",
         role: "Web Developer",
         years: "Jun 2021 - Jun 2022",
-      },
-      {
-        company: "Sekolah Tinggi Teknologi Terpadu Nurul Fikri",
-        role: "Assistant Lecturer",
-        years: "Aug 2022 - Jan 2024",
       },
       {
         company: "PT Nurul Fikri Cipta Inovasi",
@@ -115,7 +102,7 @@ const About = () => {
   };
 
   return (
-    <section className="xl:h-[860px] pb-12 xl:py-36">
+    <section className="mb-8 xl:h-[860px] pb-12 xl:py-36">
       <div className="container mx-auto">
         <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
           About me

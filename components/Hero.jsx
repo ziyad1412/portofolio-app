@@ -15,7 +15,7 @@ import Badge from "./ui/Badge";
 
 const Hero = () => {
   return (
-    <section className="py-12 xl:py-24 h-[84vh] xl:pt-28 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none">
+    <section className="py-12 mb-12 xl:py-24 h-[84vh] xl:pt-28 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none">
       <div className="container mx-auto">
         <div className="flex justify-between gap-x-8">
           {/* text */}
@@ -23,7 +23,7 @@ const Hero = () => {
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
               Web Developer
             </div>
-            <h1 className="h1 mb-4">Hello, my name is Abdurrahman Ziyad</h1>
+            <h1 className="h1 mb-4">Hello, my name is Ziyad</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
               Brief description with insights into myself, my vocational
               journey, aand what I engage in professionally.
