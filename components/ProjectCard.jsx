@@ -22,7 +22,7 @@ const ProjectCard = ({ project }) => {
               href={project.link}
               className="bg-secondary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200"
             >
-              <Link2Icon className="■text-white" />
+              <Link2Icon className="text-white" />
             </Link>
             <Link
               href={project.github}
@@ -37,7 +37,7 @@ const ProjectCard = ({ project }) => {
         </div>
       </CardHeader>
       <div className="h-full px-8 py-6">
-        <span className="uppercase border-transparent bg-primary text-primary-foreground hover:bg-primary/80 mb-2 absolute top-4 left-5 inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2">
+        <span className="uppercase border-transparent bg-primary text-primary-foreground hover:bg-primary/80 mb-2 top-4 left-5 inline-flex items-center rounded border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2">
           {project.category}
         </span>
         <h4 className="h4 mb-1">{project.name}</h4>

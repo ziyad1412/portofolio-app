@@ -25,7 +25,7 @@ const infoData = [
   },
   {
     icon: <HomeIcon size={20} />,
-    text: "Depok, Jawa Barat, Indonesia",
+    text: "Depok, Jawa Barat",
   },
 ];
 const qualificationData = [
@@ -65,16 +65,25 @@ const skillData = [
     title: "skills",
     data: [
       {
-        name: "HTML, CSS",
+        name: "HTML, CSS, Javascript, PHP, Python, TypeScript, Node JS, SQL",
       },
       {
-        name: "Frontend Development",
+        name: "Framework :",
       },
       {
-        name: "Javascript, PHP, Python",
+        name: "Bootstrap, Tailwind, Express, Laravel, CodeIgniter, React JS, Next JS",
       },
       {
-        name: "Backend Development",
+        name: "Additional Technologies :",
+      },
+      {
+        name: "Redux, Redis, JWT, Swagger, Prisma, Superbase, PostgreSQL, MongoDB",
+      },
+      {
+        name: "Relevant Skills :",
+      },
+      {
+        name: "Web Performance, REST API, JSON, Authentication, Unit Testing",
       },
     ],
   },
@@ -267,7 +276,7 @@ const About = () => {
                             const { name } = item;
                             return (
                               <div
-                                className="w-2/4 text-center xl:text-left mx-auto xl:mx-0"
+                                className="text-center xl:text-left mx-auto xl:mx-0"
                                 key={index}
                               >
                                 <div className="font-medium">{name}</div>

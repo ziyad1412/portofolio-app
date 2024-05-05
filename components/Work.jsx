@@ -16,7 +16,7 @@ import ProjectCard from "./ProjectCard";
 const projectData = [
   {
     image: "/work/3.png",
-    category: "react.js",
+    category: "react js",
     name: "Portofolio App",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde temporibus ea consequuntur accusamus voluptatibus ",
@@ -104,7 +104,7 @@ const Work = () => {
         {/* slider */}
         <div className="xl:max-w-[900px] xl:absolute right-0 top-0">
           <Swiper
-            className="h-[480px]"
+            className="h-[540px]"
             slidesPerView={1}
             breakpoints={{
               640: {
